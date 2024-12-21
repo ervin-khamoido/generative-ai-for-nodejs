@@ -1,4 +1,6 @@
-import OpenAI from 'openai';
+// import OpenAI from 'openai';
+import { OpenAI } from 'openai';
+
 import { encoding_for_model } from 'tiktoken';
 
 const openai = new OpenAI();
